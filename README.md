@@ -1,4 +1,4 @@
-# open-ai
+# AI run bash with BUN
 
 To install dependencies:
 
@@ -9,8 +9,10 @@ bun install
 To run:
 
 ```bash
-bun run index.js
+bun run worker.ts
 ```
+
+you can custom update promt on worker.ts 
 
 This project was created using `bun init` in bun v1.0.14. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
 
